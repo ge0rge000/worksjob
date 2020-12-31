@@ -1,0 +1,1085 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    width: 99%;
+}
+.nav{
+    width: 101%;
+    background-color:black;
+    height: 87px;
+    margin-top: -8px;
+    position: fixed;
+    left: -8px;
+    z-index: 1;
+}
+.imgnav {
+    margin-left: 343px;
+    margin-top: 13px;
+}
+.words {
+    margin-left: 874px;
+    margin-top: -54px;
+    float: left;
+}
+.words a {
+    margin-left: 21px;
+    color:white;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold
+}
+
+.words a span {
+    margin-left: 21px;
+    color: #731313;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+}
+.banner {
+    margin-top: 5px;
+}
+.banner img {
+    margin-top: 79px;
+}
+.banner h1 {
+    position: relative;
+    margin-top: -413px;
+    color: white;
+    margin-left: 538px;
+    font-size: 60px;
+}
+.banner p {
+    color: white;
+    margin-left: 323px;
+    font-size: 17px;
+}
+.firstpart {
+    width: 101%;
+    height: 361px;
+    background-color: #0d0d0d;
+      position: relative;
+
+    top: 323;
+    z-index: -2;
+}
+.main h1 {
+    margin-top: 34px;
+    margin-left: 728px;
+    position: absolute;
+    color: white;
+    
+    
+}
+
+.cars {
+    width: 300;
+    height: 200;
+    background-color:#0d0d0d;
+    margin: 46px;
+    position: relative;
+    z-index: 5;
+    top: 46px;
+    float: left;
+    left: 200;
+}
+.cars p {
+    font-size: 21px;
+    font-style: initial;
+    font-family: monospace;
+    color: white;
+    margin-top: 6px;
+
+    text-align: justify;
+}
+.cars h1{
+    color: white;
+    text-align: center;
+}
+.cars img {
+    margin-left: 100;
+    border-radius: 62%;
+}
+.secoundpart{
+    width: 101%;
+    height: 686px;
+    background-color: black;
+      position: relative;
+
+    top: 323;
+    z-index: -2;
+}
+.mainn {
+    position: absolute;
+    left: 686px;
+    top: 27px;
+   
+}
+.mainn h1 {
+    color: white;
+    margin-left: 41px;
+}
+.carss {
+    float: left;
+    margin: 88px;
+    width: 299px;
+    height: 85px;
+    margin-top: 114px;
+    margin-left: 119px;
+
+}
+.clear{
+    clear: both;
+}
+.carss p {
+    color: white;
+    text-align: justify;
+    line-height: 1.5;
+}
+}
+.carss img {
+    border-radius: 8px;
+}
+.thirdPart {
+    width: 101%;
+    height: 334px;
+    background-color: #0d0d0d;
+      position: relative;
+
+    top: 323;
+    z-index: -2;
+}
+.mainnn h1 {
+    color: white;
+    margin-left: 700px;
+}
+.mainnn {
+    position: absolute;
+    top: 27px;
+}
+.fourthpart{
+    width: 101%;
+    height: 392;
+    background-color: black;
+      position: relative;
+
+    top: 323;
+    z-index: -2;
+}
+.mainnnn h1 {
+    color: white;
+    margin-left: 0;
+    position: absolute;
+    text-align: center;
+    margin-left: 280px;
+    top: 28px;
+}
+.carsss{
+    width: 300;
+    height: 200;
+    background-color: #0d0d0d;
+    margin: 46px;
+    position: relative;
+   
+    top: 46px;
+    float: left;
+    left: 404px;
+}
+.carsss p {
+    color: white;
+    width: 300px;
+    text-align: justify;
+}
+.fifthpart {
+    width: 101%;
+    height: 100;
+    background-color:#0d0d0d;
+    position: relative;
+    top: 323px;
+    left: 0px;
+}
+.fifthpart p {
+    color: #731313;
+    text-align: justify;
+    font-family: fantasy;
+    font-size: 19px;
+    width: 99%;
+}
+
+@media only screen and (max-width: 411px) {
+    body {
+      background-color: red;
+    }
+    .imgnav {
+        margin-left: 1px;
+        margin-top: 6px;
+    }
+    .words a {
+        margin-left: 21px;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .imgnav img {
+        width: 100;
+        height: 80;
+    }
+    .words {
+        margin-left: 70px;
+        margin-top: -54px;
+        float: left;
+    }
+    .nav {
+        width: 101%;
+        background-color: black;
+        height: 87px;
+        margin-top: -62px;
+        position: fixed;
+        left: -8px;
+        z-index: 1;
+    }
+    .banner {
+        margin-top: 59px;
+    }
+    .banner img {
+        margin-top: 10px;
+        width: 840px;
+        height: 200;
+    }
+    .banner h1 {
+        position: relative;
+        margin-top: -158px;
+        color: white;
+        margin-left: 289px;
+        font-size: 49px;
+    }
+    .banner p {
+        color: white;
+        margin-left: 217px;
+        font-size: 17px;
+    }
+    .firstpart {
+        width: 111%;
+        height: 255px;
+        background-color: #0d0d0d;
+        position: relative;
+        top: 61px;
+        z-index: -2;
+    }
+    .main h1 {
+        margin-top: 4px;
+        margin-left: 367px;
+        position: absolute;
+        color: white;
+    }
+    .cars {
+        width: 237px;
+        height: 178px;
+        background-color: #0d0d0d;
+        margin: 8px;
+        position: relative;
+        z-index: 5;
+        top: 46px;
+        float: left;
+        left: 61px;
+    }
+    .cars p {
+        font-size: 13px;
+        font-style: initial;
+        font-family: monospace;
+        color: white;
+        margin-top: 6px;
+        text-align: justify;
+    }
+    .cars img {
+        margin-left: 69px;
+        border-radius: 62%;
+    }
+    .secoundpart {
+        width: 111%;
+        height: 500;
+        background-color: black;
+        position: relative;
+        top: 60px;
+        z-index: -2;
+    }
+    .mainn {
+        position: absolute;
+        left: 347px;
+        top: 15px;
+    }
+    .carss {
+        float: left;
+        margin: 0px;
+        width: 240px;
+        height: 473px;
+        margin-top: 85px;
+        margin-left: 29px;
+    }
+    .carss img {
+        width: 236px;
+        height: 137px;
+    }
+    .carss p {
+        color: white;
+        text-align: justify;
+        line-height: 1.1;
+    }
+    .thirdPart {
+        width: 111%;
+        height: 334px;
+        background-color: #0d0d0d;
+        position: relative;
+        top: 59px;
+        z-index: -2;
+    }
+    .mainnn h1 {
+        color: white;
+        margin-left: 350;
+    }
+    .fourthpart {
+        width: 111%;
+        height: 426px;
+        background-color: black;
+        position: relative;
+        top: 58px;
+        z-index: -2;
+    }
+    .mainnnn h1 {
+        color: white;
+        margin-left: 0;
+        position: absolute;
+        text-align: center;
+        margin-left: 20px;
+        top: 28px;
+        font-size: 28px;
+
+    }
+    .carsss {
+        width: 250;
+        height: 150;
+        background-color: #0d0d0d;
+        margin: 42;
+        position: relative;
+        top: 46px;
+        float: left;
+        left: 77px;
+    }
+    .carsss p {
+        color: white;
+        width: 247px;
+        text-align: justify;
+    }
+    .fifthpart {
+        width: 843px;
+        height: 186px;
+        background-color: #0d0d0d;
+        position: relative;
+        top: 57px;
+        left: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1024px){
+.body{
+    background-color: #731313;
+}
+.imgnav {
+    margin-left: 100;
+    margin-top: 12px;
+}
+.words {
+    margin-left: 562px;
+    margin-top: -54px;
+    float: left;
+}
+.banner img {
+    margin-top: 79px;
+    width: 1142px;
+}
+.firstpart {
+    width: 1142px;
+    height: 361px;
+    background-color: #0d0d0d;
+    position: relative;
+    top: 304px;
+    z-index: -2;
+}
+.cars {
+    width: 270px;
+    height: 200;
+    background-color: #0d0d0d;
+    margin: 32px;
+    position: relative;
+    z-index: 5;
+    top: 46px;
+    float: left;
+    left: 129px;
+}
+.secoundpart {
+    width: 1142px;
+    height: 686px;
+    background-color: black;
+    position: relative;
+    top: 303px;
+    z-index: -2;
+}
+.carss {
+    float: left;
+    margin: 64px;
+    width: 239px;
+    height: 200;
+    /* margin-top: -75px; */
+    /* margin-left: 3px; */
+    position: relative;
+    left: 50px;
+    top: 79px;
+}
+.carss img {
+    width: 236px;
+    height: 222px;
+}
+.thirdPart {
+    width: 1143px;
+    height: 334px;
+    background-color: #0d0d0d;
+    position: relative;
+    top: 303px;
+    z-index: -2;
+
+}
+.mainnn {
+    position: absolute;
+    top: 27px;
+    left: -153px;
+}
+.fourthpart {
+    width: 1143px;
+    height: 392;
+    background-color: black;
+    position: relative;
+    top: 303px;
+    z-index: -2;
+}
+.carsss {
+    width: 300;
+    height: 200;
+    background-color: #0d0d0d;
+    margin: 46px;
+    position: relative;
+    top: 46px;
+    float: left;
+    left: 183px;
+}
+.mainnnn h1 {
+    color: white;
+    margin-left: 0;
+    position: absolute;
+    text-align: center;
+    margin-left: 80;
+    top: 28px;
+}
+.fifthpart {
+    width: 1137px;
+    height: 200;
+    background-color: #0d0d0d;
+    position: relative;
+    top: 301px;
+    left: 0px;
+}
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    body {
+        background-color: lightblue;
+      }
+      .imgnav {
+          margin-left: 1px;
+          margin-top: 6px;
+      }
+      .words a {
+          margin-left: 21px;
+          color: white;
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: bold;
+      }
+      .imgnav img {
+          width: 100;
+          height: 80;
+      }
+      .words {
+          margin-left: 70px;
+          margin-top: -54px;
+          float: left;
+      }
+      .nav {
+          width: 101%;
+          background-color: black;
+          height: 87px;
+          margin-top: -62px;
+          position: fixed;
+          left: -8px;
+          z-index: 1;
+      }
+      .banner {
+          margin-top: 59px;
+      }
+      .banner img {
+          margin-top: 10px;
+          width: 840px;
+          height: 200;
+      }
+      .banner h1 {
+          position: relative;
+          margin-top: -158px;
+          color: white;
+          margin-left: 289px;
+          font-size: 49px;
+      }
+      .banner p {
+          color: white;
+          margin-left: 217px;
+          font-size: 17px;
+      }
+      .firstpart {
+          width: 111%;
+          height: 255px;
+          background-color: #0d0d0d;
+          position: relative;
+          top: 61px;
+          z-index: -2;
+      }
+      .main h1 {
+          margin-top: 4px;
+          margin-left: 367px;
+          position: absolute;
+          color: white;
+      }
+      .cars {
+          width: 237px;
+          height: 178px;
+          background-color: #0d0d0d;
+          margin: 8px;
+          position: relative;
+          z-index: 5;
+          top: 46px;
+          float: left;
+          left: 61px;
+      }
+      .cars p {
+          font-size: 13px;
+          font-style: initial;
+          font-family: monospace;
+          color: white;
+          margin-top: 6px;
+          text-align: justify;
+      }
+      .cars img {
+          margin-left: 69px;
+          border-radius: 62%;
+      }
+      .secoundpart {
+          width: 111%;
+          height: 500;
+          background-color: black;
+          position: relative;
+          top: 60px;
+          z-index: -2;
+      }
+      .mainn {
+          position: absolute;
+          left: 347px;
+          top: 15px;
+      }
+      .carss {
+          float: left;
+          margin: 0px;
+          width: 240px;
+          height: 473px;
+          margin-top: 85px;
+          margin-left: 29px;
+      }
+      .carss img {
+          width: 236px;
+          height: 137px;
+      }
+      .carss p {
+          color: white;
+          text-align: justify;
+          line-height: 1.1;
+      }
+      .thirdPart {
+          width: 111%;
+          height: 334px;
+          background-color: #0d0d0d;
+          position: relative;
+          top: 59px;
+          z-index: -2;
+      }
+      .mainnn h1 {
+          color: white;
+          margin-left: 350;
+      }
+      .fourthpart {
+          width: 111%;
+          height: 426px;
+          background-color: black;
+          position: relative;
+          top: 58px;
+          z-index: -2;
+      }
+      .mainnnn h1 {
+          color: white;
+          margin-left: 0;
+          position: absolute;
+          text-align: center;
+          margin-left: 20px;
+          top: 28px;
+          font-size: 28px;
+  
+      }
+      .carsss {
+          width: 250;
+          height: 150;
+          background-color: #0d0d0d;
+          margin: 42;
+          position: relative;
+          top: 46px;
+          float: left;
+          left: 77px;
+      }
+      .carsss p {
+          color: white;
+          width: 247px;
+          text-align: justify;
+      }
+      .fifthpart {
+          width: 843px;
+          height: 186px;
+          background-color: #0d0d0d;
+          position: relative;
+          top: 57px;
+          left: 0px;
+      }
+}
+@media screen and (max-width: 767px) and (min-width: 540px){
+    .body{
+        background-color: wheat;
+    }
+    .imgnav {
+        margin-left: 44px;
+        margin-top: 13px;
+    }
+    .words {
+        margin-left: 522px;
+        margin-top: -54px;
+        float: left;
+    }
+    .banner h1 {
+        position: relative;
+        margin-top: -413px;
+        color: white;
+        margin-left: 135px;
+        font-size: 58px;
+    }
+    .banner p {
+        color: white;
+        margin-left: 68px;
+        font-size: 17px;
+    }
+   .banner img {
+        width: 1142px;
+        margin-top: 79px;
+    }
+    
+     .firstpart {
+        width: 1142px;
+        height: 361px;
+        background-color: #0d0d0d;
+        position: relative;
+        top: 273px;
+        z-index: -2;
+    }
+    .main h1 {
+        margin-top: 34px;
+        margin-left: 513px;
+        position: absolute;
+        color: white;
+    }
+    .cars {
+        width: 220;
+        height: 200;
+        background-color: #0d0d0d;
+        margin: 13px;
+        position: relative;
+        z-index: 5;
+        top: 85px;
+        float: left;
+        left: 212px;
+    } 
+    .cars img {
+        margin-left: 62px;
+        border-radius: 62%;
+    }
+    .mainn h1 {
+        color: white;
+        margin-left: -170px;
+    }
+    .secoundpart {
+        width: 1142px;
+        height: 687px;
+        background-color: black;
+        position: relative;
+        top: 270px;
+    }
+    .carss {
+        float: left;
+        margin: 103px;
+        width: 100;
+        height: 100;
+        margin-top: 114px;
+        margin-left: 113px;
+        position: relative;
+        left: 43;
+    }
+    .carss img {
+        width: 200;
+    }
+    .carss p {
+        color: white;
+        text-align: justify;
+        line-height: 1.1;
+        width: 200;
+    }
+    .thirdPart {
+        width: 1142px;
+        height: 334px;
+        background-color: #0d0d0d;
+        position: relative;
+        top: 269px;
+        z-index: -2;
+    }
+    .mainnn h1 {
+        color: white;
+        margin-left: 491px;
+    }
+    .fourthpart {
+        width:1142px;
+        height: 392;
+        background-color: black;
+        position: relative;
+        top: 268px;
+        
+    }
+    .mainnnn h1 {
+        color: white;
+        margin-left: 0;
+        position: absolute;
+        text-align: center;
+        margin-left: 86px;
+        top: 28px;
+    }
+    .carsss {
+        width: 300;
+        height: 200;
+        background-color: #0d0d0d;
+        margin: 46px;
+        position: relative;
+        top: 37px;
+        float: left;
+        left: 159px;
+    }
+    .fifthpart {
+        width: 1142px;
+        height: 139px;
+        background-color: #0d0d0d;
+        position: relative;
+        top: 267px;
+        left: 0px;
+    }
+
+    }
+@media screen and (max-width: 539px) and (min-width: 401px){
+    .body{
+        background-color:red ;
+        
+    }
+    .words {
+        margin-left: 318px;
+        margin-top: -54px;
+        float: left;
+    }
+    .imgnav {
+        margin-left: 30px;
+        margin-top: 13px;
+    }
+    .banner img {
+        margin-top: 78px;
+        width: 767px;
+    }
+    .banner h1 {
+        position: relative;
+        margin-top: -413px;
+        color: white;
+        margin-left: 200;
+        font-size: 49px;
+        width: 100%;
+    }
+    .banner p {
+        color: white;
+        margin-left: 25px;
+        font-size: 25px;
+        width: 179%;
+        margin-top: 24px;
+    }
+    .firstpart {
+        width: 767px;
+        height: 361px;
+        background-color:  #0d0d0d;
+        position: relative;
+        top: 273px;
+        z-index: -2;
+    }
+    .main h1 {
+        margin-top: 34px;
+        margin-left: 353px;
+        position: absolute;
+        color: white;
+    }
+    .cars {
+        width: 220;
+        height: 200;
+        background-color: #0d0d0d;
+        margin: 13px;
+        position: relative;
+        z-index: 5;
+        top: 85px;
+        float: left;
+        left: 19px;
+    }
+    .cars p {
+        font-size: 21px;
+        font-style: initial;
+        font-family: monospace;
+        color: white;
+        margin-top: 6px;
+        text-align: justify;
+        width: 96%;
+    }
+    .cars img {
+        margin-left: 58px;
+        border-radius: 62%;
+    }
+    .secoundpart {
+        width: 767px;
+        height: 686px;
+        background-color: black;
+        position: relative;
+        top: 272px;
+        
+    }
+    .mainn {
+        position: absolute;
+        left: 309px;
+        top: 27px;
+    }
+    .main h1 {
+        margin-top: 34px;
+        margin-left: 342px;
+        position: absolute;
+        color: white;
+    }
+    .carss {
+        position: relative;
+        float: left;
+        margin: 142px;
+        width: 30;
+        height: 80;
+        margin-top: 114px;
+        margin-left: 76px;
+        left: -47px;
+    }
+    .carss img {
+        width: 200;
+    }
+    .carss p {
+        color: white;
+        text-align: justify;
+        line-height: 1;
+        width: 198px;
+    }
+    .thirdPart {
+        width: 767px;
+        height: 334px;
+        background-color: #0d0d0d;
+        position: relative;
+        top: 271px;
+        z-index: -2;
+    }
+    .mainnn {
+        position: absolute;
+        top: 27px;
+        left: -403px;
+    }
+    .fourthpart {
+        width: 767px;
+        height: 472;
+        background-color: black;
+        position: relative;
+        top: 269px;
+        z-index: -2;
+    }
+    .mainnnn h1 {
+        color: white;
+        margin-left: 0;
+        position: absolute;
+        text-align: center;
+        margin-left: -2px;
+        top: 28px;
+        font-size: 25px;
+    }
+    .carsss {
+        width: 200;
+        height: 200;
+        background-color: #0d0d0d;
+        margin: 46px;
+        position: relative;
+        top: 46px;
+        float: left;
+        left: 59px;
+        
+    }
+    .carsss p {
+        color: white;
+        width: 207px;
+        text-align: justify;
+        line-height:1.3
+    }
+    .fifthpart {
+        width: 767px;
+        height: 208px;
+        background-color: #0d0d0d;
+        position: relative;
+        top: 269px;
+        left: 0px;
+    }
+}
+
+
+ 
+@media screen and (max-width: 400px) and (min-width: 270px){
+    body {
+        background-color: lightblue;
+      }
+      .nav {
+          width: 101%;
+          background-color: black;
+          height: 87px;
+          margin-top: 0px;
+          position: fixed;
+          left: -8px;
+          z-index: 1;
+      }
+      .imgnav {
+          margin-left: 6px;
+          margin-top: 2px;
+      }
+     
+      .words {
+          margin-left: 488px;
+          margin-top: -54px;
+          position: absolute;
+      }
+      .imgnav img {
+            margin-left: 200;
+      margin-top: 12px;
+      }
+      .words a {
+          margin-left: 21px;
+          color: white;
+          text-decoration: none;
+          font-size: 19px;
+          font-weight: bold;
+      }
+      .banner img {
+          height: 455px;
+          width: 843px;
+      }
+      .banner {
+          margin-top: 5px;
+          position: absolute;
+      }
+      .banner h1 {
+          position: relative;
+      margin-top: -356px;
+      color: white;
+      margin-left: 349px;
+      font-size: 40;
+      }
+      .banner p {
+      color: white;
+      margin-left: 106px;
+      font-size: 17px;
+      width: 87%;
+  }
+  .firstpart {
+      width: 843px;
+      height: 255px;
+      background-color: #000000;
+      position: relative;
+      top: 469px;
+      z-index: 0;
+  }
+  .cars p {
+      font-size: 15px;
+      font-style: initial;
+      font-family: monospace;
+      color: white;
+      margin-top: 6px;
+      text-align: justify;
+      width: 229px;
+  }
+  .secoundpart {
+      width: 843px;
+      height: 500;
+      background-color: #000000;
+      position: relative;
+      top: 469px;
+      z-index: 0;
+  }
+  .thirdPart {
+      width: 843px;
+      height: 334px;
+      background-color:#0d0d0d;
+      position: relative;
+      top: 467px;
+      z-index: 0;
+  }
+  .fourthpart {
+      width: 843px;
+      height: 426px;
+      background-color: #000000;
+      position: relative;
+      top: 465px;
+      z-index: 0;
+  }
+  .fifthpart {
+      width: 843px;
+      height: 186px;
+      background-color: #0d0d0d;
+      position: relative;
+      top: 465px;
+      left: 0px;
+}
+
+}
+
+
+
+

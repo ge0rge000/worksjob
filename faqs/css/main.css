@@ -1,0 +1,822 @@
+*{
+    margin: 0;
+}
+.containner{
+    display: flex;
+    flex-direction: column;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    height: 64;
+    position: relative;
+   
+}
+.officenavv {
+    margin-left: -756px;
+    margin-top: 24px;
+    background-color:#ffffff;
+    width: 181px;
+    height: 116px;
+    padding-left: 10px;
+    display: none;
+}
+.windowse {
+    margin-left: -669px;
+    margin-top: 24px;
+    background-color: #ffffff;
+    width: 181px;
+    height: 205px;
+    padding-left: 10px;
+    display: none;
+}
+.windowsinsiderprev {
+    margin-left: -553px;
+    margin-top: 24px;
+    background-color: #ffffff;
+    width: 181px;
+    height: 425px;
+    padding-left: 10px;
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+
+.nav img {
+    margin-left: 100;
+    width: 120;
+    height: 22px;
+    margin-top: 20px;
+}
+.navtype a {
+    text-decoration: none;
+    color: black;
+    margin-left: 28px;
+    position: relative;
+    top: -28px;
+    left: -3px;
+    z-index: 2;
+}
+
+.navtype {
+  
+    margin-left: 17;
+    margin-top: 9px;
+}
+.navtype a span {
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: -3px;
+}
+i.fas.fa-angle-down {
+    position: relative;
+    left: -2px;
+    top: -27px;
+    z-index: 2;
+}
+.navtypesec a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 25px;
+    left: 220;
+    margin-left: 29px;
+}
+i.fas.fa-search {
+    position: relative;
+    top: 26px;
+    left: 223px;
+    font-size: 17px;
+}
+
+
+i.fas.fa-user {
+    position: relative;
+    top: 25px;
+    left: 228px;
+    font-size: 15px;
+}
+.secoundangle {
+    position: absolute;
+    top: 55px;
+    left: 1267px;
+}
+.first {
+    width: 100%;
+    height: 139;
+    background-color: #0067b8;
+}
+.first h1 {
+    color: white;
+    margin-left: 200;
+    margin-top: 50px;
+}
+
+.windows h1 {
+    color: #1570a6;
+    margin-left: 300;
+    margin-top: 7px;
+    font-size: 26px;
+}
+i.fas.fa-plus-circle {
+    font-size: 50;
+    margin-left: -25px;
+    margin-top: 8px;
+    position: absolute;
+    font-size: 23px;
+    color: grey;
+    z-index:2 ;
+
+}
+i.fas.fa-minus-circle {
+    font-size: 50;
+    margin-left: -25px;
+    margin-top: 8px;
+    position: absolute;
+    font-size: 23px;
+    color: grey;
+  
+}
+.iconplus {
+    position: relative;
+    z-index: 1;
+}
+.iconminus {
+    position: relative;
+    z-index: -1;
+}
+.iconplus1 {
+    position: relative;
+    z-index: 1;
+}
+.iconminus1 {
+    position: relative;
+    z-index: -1;
+}
+.iconplus2 {
+    position: relative;
+    z-index: 1;
+}
+.iconminus2 {
+    position: relative;
+    z-index: -1;
+}
+.iconplus3 {
+    position: relative;
+    z-index: 1;
+}
+.iconminus3{
+    position: relative;
+    z-index: -1;
+}
+.iconplus4 {
+    position: relative;
+    z-index: 1;
+}
+.iconminus4 {
+    position: relative;
+    z-index: -1;
+}
+.iconplus5 {
+    position: relative;
+    z-index: 1;
+}
+.iconminus5 {
+    position: relative;
+    z-index: -1;
+}
+.iconplus6 {
+    position: relative;
+    z-index: 1;
+}
+.iconminus6 {
+    position: relative;
+    z-index: -1;
+}
+.iconplus7 {
+    position: relative;
+    z-index: 1;
+}
+.iconminus7 {
+    position: relative;
+    z-index: -1;
+}
+.iconplus8 {
+    position: relative;
+    z-index: 1;
+}
+.iconminus8 {
+    position: relative;
+    z-index: -1;
+}
+.iconplus9 {
+    position: relative;
+    z-index: 1;
+}
+.iconminus9 {
+    position: relative;
+    z-index: -1;
+}
+
+
+
+button.windows {
+    width: 1300;
+    height: 38px;
+    margin-left: 113px;
+    color: #0063b8;
+    text-align: inherit;
+    padding-left: 36px;
+    font-size: 30px;
+    font-weight: bold;
+}
+button.windows {
+    margin: 9px;
+    margin-left: 24px;
+}
+.windowsProductbtninput {
+    display: none;
+    width: 1161px;
+    text-align: initial;
+    background-color: #efefef;
+    height: 50;
+    padding-left: 21px;
+    margin-top: 2;
+    padding-top: 5;
+    margin-left: 206;
+    color: grey;
+    font-size: 35px;
+    padding-left: 58px;
+    text-align: inherit;
+}
+
+.paragraph{
+    display: none;
+    width: 70%;
+    height: 157;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+
+}
+.windowsProductbtninput2{
+    display: none;
+    width: 1161px;
+    text-align: initial;
+    background-color: #efefef;
+    height: 50;
+    padding-left: 21px;
+    margin-top: 8;
+    padding-top: 5;
+    margin-left: 206;
+    color: grey;
+    font-size: 35px;
+    padding-left: 58px;
+    text-align: inherit;
+}
+.paragraph2{
+    display: none;
+    width: 70%;
+    height: 54;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+
+}
+
+.windowsProductbtninput3{
+    display: none;
+    width: 1161px;
+    text-align: initial;
+    background-color: #efefef;
+    height: 50;
+    padding-left: 21px;
+    margin-top:8;
+    padding-top: 5;
+    margin-left: 206;
+    color: grey;
+    font-size: 35px;
+    padding-left: 58px;
+    text-align: inherit;
+}
+.paragraph3{
+    display: none;
+    width: 70%;
+    height: 121px;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+
+}
+.windowsProductbtninput4{
+    display: none;
+    width: 1161px;
+    text-align: initial;
+    background-color: #efefef;
+    height: 50;
+    padding-left: 21px;
+    margin-top: 8;
+    padding-top: 5;
+    margin-left: 206;
+    color: grey;
+    font-size: 35px;
+    padding-left: 58px;
+    text-align: inherit;
+}
+.paragraph4{
+    display: none;
+    width: 70%;
+    height: 90px;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+
+}
+.officeProductbtninput{
+    display: none;
+    width: 1161px;
+    text-align: initial;
+    background-color: #efefef;
+    height: 50;
+    padding-left: 21px;
+    margin-top: 2;
+    padding-top: 5;
+    margin-left: 206;
+    color: grey;
+    font-size: 35px;
+    padding-left: 58px;
+    text-align: inherit;
+}
+.ofparagraph{
+    display: none;
+    width: 70%;
+    height: 176px;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+}
+.officeProductbtninput2{
+    display: none;
+    width: 1161px;
+    text-align: initial;
+    background-color: #efefef;
+    height: 50;
+    padding-left: 21px;
+    margin-top: 8;
+    padding-top: 5;
+    margin-left: 206;
+    color: grey;
+    font-size: 35px;
+    padding-left: 58px;
+    text-align: inherit;
+}
+.ofparagraph2{
+    display: none;
+    width: 70%;
+    height: 83px;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+}
+.officeProductbtninput3{
+    display: none;
+    width: 1161px;
+    text-align: initial;
+    background-color: #efefef;
+    height: 50;
+    padding-left: 21px;
+    margin-top: 8;
+    padding-top: 5;
+    margin-left: 206;
+    color: grey;
+    font-size: 35px;
+    padding-left: 58px;
+    text-align: inherit;
+}
+.ofparagraph3{
+    display: none;
+    width: 70%;
+    height: 147px;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+}
+.officeProductbtninput4{
+    display: none;
+    width: 1161px;
+    text-align: initial;
+    background-color: #efefef;
+    height: 50;
+    padding-left: 21px;
+    margin-top: 8;
+    padding-top: 5;
+    margin-left: 206;
+    color: grey;
+    font-size: 35px;
+    padding-left: 58px;
+    text-align: inherit;
+}
+.ofparagraph4{
+    display: none;
+    width: 70%;
+    height: 81;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+
+}
+
+
+
+button.office {
+    width: 1300;
+    height: 38px;
+    margin-left: 113px;
+    color: #0063b8;
+    text-align: inherit;
+    padding-left: 36px;
+    font-size: 30px;
+    font-weight: bold;
+}
+button.office {
+    margin: 9px;
+    margin-left: 24px;
+}
+
+.secound {
+    width: 100%;
+    height: 690px;
+    background-color: #f2f2f2;
+    margin-top: 33px;
+    display: flex;
+    flex-direction: row;
+}
+.row {
+    width: 100%;
+    text-align: center;
+    margin-top: 21;
+}
+h4 {
+    margin-top: 31px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+.windowwwwwwws {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  justify-content: center;
+}
+.officeeeeeee{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  justify-content: center;
+
+}
+.secound h3 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.dis{
+    display:"block"
+}
+
+@media screen and (max-width: 1025px) and (min-width: 767px){
+    .nav {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        width: 1304px;
+        height: 64;
+        position: relative;
+    }
+    .navtypesec {
+        margin-left: -239px;
+    }
+    .secoundangle {
+        position: absolute;
+        top: 53px;
+        left: 1025px;
+    }
+    .first {
+        width: 1304px;
+        height: 139;
+        background-color: #0067b8;
+    }
+    .windowwwws2 {
+        margin-left: -137px;
+    }
+    .windowwwwwwws {
+        display: flex;
+        flex-direction: row;
+        width: 1300;
+        justify-content: center;
+    }
+    .paragraph {
+        display: none;
+        width: 1041px;
+        height: 157;
+        margin-left: 257px;
+        line-height: 1.5;
+        font-size: 17px;
+        text-align: justify;
+    }
+    .paragraph2 {
+        display: none;
+        width: 1041;
+        height: 54;
+        margin-left: 257px;
+        line-height: 1.5;
+        font-size: 17px;
+        text-align: justify;
+    }
+    .paragraph3 {
+        display: none;
+        width: 1041;
+        height: 121px;
+        margin-left: 257px;
+        line-height: 1.5;
+        font-size: 17px;
+        text-align: justify;
+    }
+    .paragraph4 {
+        display: none;
+        width: 1041;
+        height: 90px;
+        margin-left: 257px;
+        line-height: 1.5;
+        font-size: 17px;
+        text-align: justify;
+    }
+    .officeeeeeee {
+        display: flex;
+        flex-direction: row;
+        width: 1300;
+        justify-content: center;
+    }
+    .oficccccce2 {
+        margin-left: -137px;
+    }
+    .ofparagraph {
+        display: none;
+        width: 1067px;
+        height: 176px;
+        margin-left: 257px;
+        line-height: 1.5;
+        font-size: 17px;
+        text-align: justify;
+    }
+    .ofparagraph2 {
+        display: none;
+        width: 1067px;
+        height: 83px;
+        margin-left: 257px;
+        line-height: 1.5;
+        font-size: 17px;
+        text-align: justify;
+    }
+    .ofparagraph3 {
+        display: none;
+        width: 1067;
+        height: 147px;
+        margin-left: 257px;
+        line-height: 1.5;
+        font-size: 17px;
+        text-align: justify;
+    }
+    .ofparagraph4 {
+        display: none;
+        width: 1067;
+        height: 81;
+        margin-left: 257px;
+        line-height: 1.5;
+        font-size: 17px;
+        text-align: justify;
+    }
+    .secound {
+        width: 1304px;
+        height: 1388px;
+        background-color: #f2f2f2;
+        margin-top: 33px;
+        display: flex;
+        flex-direction: row;
+    }
+    .officenavv {
+        margin-left: -480px;
+        margin-top: 24px;
+        background-color: #ffffff;
+        width: 181px;
+        height: 116px;
+        padding-left: 10px;
+        display: none;
+    }
+    .windowse {
+        margin-left: -390px;
+        margin-top: 24px;
+        background-color: #ffffff;
+        width: 181px;
+        height: 205px;
+        padding-left: 10px;
+        display: none;
+    }
+    .windowsinsiderprev {
+        margin-left: -274px;
+        margin-top: 24px;
+        background-color: #ffffff;
+        width: 181px;
+        height: 425px;
+        padding-left: 10px;
+        display: none;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 550px) and (min-width: 270px){
+    .nav {
+        display: flex;
+        flex-direction: row;
+        background-color:white;
+        width: 1261px;
+        height: 64;
+        position: relative;
+    }
+    .navtype {
+        margin-left: 17;
+        margin-top: 9px;
+    }
+
+    
+
+.navtypesec {
+    margin-left: -255px    ;
+}
+.secoundangle {
+    position: absolute;
+    top: 53px;
+    left: 1013px;
+}
+.first {
+    width: 1261px;
+    height: 139;
+    background-color: #0067b8;
+}
+.windowwwwwwws {
+    display: flex;
+    flex-direction: row;
+    width: 1261px;
+    justify-content: center;
+    margin-left: -12px;
+}
+.windowwwws2 {
+    margin-left: -148px;
+}
+.paragraph {
+    display: none;
+    width: 1049px;
+    height: 157;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+}
+.paragraph2 {
+    display: none;
+    width: 1049;
+    height: 54;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+}
+.paragraph3 {
+    display: none;
+    width: 1049;
+    height: 121px;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+}
+.paragraph4 {
+    display: none;
+    width: 1049;
+    height: 90px;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+}
+.officeeeeeee {
+    display: flex;
+    flex-direction: row;
+    width: 1254px;
+    justify-content: center;
+}
+.oficccccce2 {
+    margin-left: -141px;
+}
+.ofparagraph {
+    display: none;
+    width: 1062;
+    height: 176px;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+}
+.ofparagraph2 {
+    display: none;
+    width: 1062;
+    height: 83px;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+}
+.ofparagraph3 {
+    display: none;
+    width: 1062;
+    height: 147px;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+}
+.ofparagraph4 {
+    display: none;
+    width: 1062;
+    height: 81;
+    margin-left: 257px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+button.office {
+    margin: 9px;
+    margin-left: 9px;
+}
+.secound {
+    width: 1261px;
+    height: 2183;
+    background-color: #f2f2f2;
+    margin-top: 33px;
+    display: flex;
+    flex-direction: row;
+}
+.officenavv {
+    margin-left: -500;
+    margin-top: 24px;
+    background-color: #ffffff;
+    width: 181px;
+    height: 116px;
+    padding-left: 10px;
+    display: none;
+}
+.windowse {
+    margin-left: -406px;
+    margin-top: 24px;
+    background-color: #ffffff;
+    width: 181px;
+    height: 205px;
+    padding-left: 10px;
+    display: none;
+}
+.windowsinsiderprev {
+    margin-left: -300;
+    margin-top: 24px;
+    background-color: #ffffff;
+    width: 181px;
+    height: 425px;
+    padding-left: 10px;
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+.navtype a {
+    text-decoration: none;
+    color: black;
+    margin-left: 28px;
+    position: relative;
+    top: -28px;
+    left: -12px;
+    z-index: 2;
+}
+}

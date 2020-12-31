@@ -1,0 +1,647 @@
+*{
+    margin: 0;
+}
+.containeer{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 67px;
+    background-color:white;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav img {
+    margin-left: 14px;
+    margin-top: 14px;
+    width: 130px;
+    height: 31px;
+}
+.words {
+    position: relative;
+    top: 22px;
+    left: 56px;
+    font-weight: bold;
+    font-size: 17px;
+    display: flex;
+}
+.words a {
+    float: left;
+    margin-right: 25px;
+}
+.sign {
+    margin-left: 907px;
+    margin-top: 23px;
+}
+button.Button {
+    border-width: 5px;
+    border-style: none;
+    background-color: #46464200;
+    color: #5d5d5d;
+    font-size: 18px;
+}
+button.Button.Button1 {
+    border: 2px solid #000000;
+    border-radius: 30px;
+}
+.page-hero {
+    background-image: linear-gradient(225deg, #ffc63f 0%, #fd3358 49%, #bc35d8 100%);
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    padding: 76px 0;
+    background-size: cover;
+    margin-top: 59px;
+    height: 352px;
+}
+.page-hero h1 {
+    margin-top: 35px;
+    font-size: 50px;
+}
+.page-hero p {
+    font-size: 33px;
+    font-family: fantasy;
+    width: 931px;
+    text-align: center;
+    margin-left: 296px;
+}
+.faq {
+    background-color: #fafafa;
+    width: 100%;
+    padding: 100;
+}
+.browser-frame {
+    box-shadow: 0 22px 44px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    border: solid #efefef;
+    border-width: 0;
+    border-top-width: 28px;
+    position: relative;
+}
+.browser-frame h1 {
+    position: relative;
+    width: 39px;
+    background-color: #73615300;
+    top: -67px;
+    left: 8px;
+    float: left;
+    margin-right: -26px;
+    font-weight: bold;
+    color: #d4d4d4;
+}
+.faq p {
+    width: 500;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 9px;
+    margin-bottom: 21px;
+    color: rgba(17,17,17,0.7);
+}
+.faq h1 {
+    font-size: 53px;
+    font-weight: bold;
+    font-family: system-ui;
+}
+.faqanswers {
+    margin-top: -159px;
+    width: 100%;
+    padding: 100;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.faqqs {
+    background-color: white;
+    margin-top: -111px;
+}
+.faqbuttonn1 {
+    margin-top: 6px;
+    width: 100%;
+    text-align: initial;
+    font-size: 33px;
+    font-weight: bold;
+    border: 2px solid #fafafa;
+    background-color: #fafafa;
+    border-radius: 6px;
+    cursor: pointer;
+   
+    padding-top: 8px;
+    padding-left: 7px;
+}
+.faqbuttonn1 p {
+    background-color: white;
+    display: none;
+}
+
+span.faqbutton1 {
+    background-color: #fafafa;
+}
+.faqbuttonn2 {
+    margin-top: 6px;
+    width: 100%;
+    text-align: initial;
+    font-size: 33px;
+    font-weight: bold;
+    border: 2px solid #fafafa;
+    background-color: #fafafa;
+    border-radius: 6px;
+    cursor: pointer;
+   
+    padding-top: 8px;
+    padding-left: 7px;
+}
+.faqbuttonn2 p {
+    background-color: white;
+    display: none;
+}
+
+span.faqbutton2 {
+    background-color: #fafafa;
+}
+.faqbuttonn3 {
+    margin-top: 6px;
+    width: 100%;
+    text-align: initial;
+    font-size: 33px;
+    font-weight: bold;
+    border: 2px solid #fafafa;
+    background-color: #fafafa;
+    border-radius: 6px;
+    cursor: pointer;
+
+    padding-top: 8px;
+    padding-left: 7px;
+}
+.faqbuttonn3 p {
+    background-color: white;
+    display: none;
+}
+
+span.faqbutton3 {
+    background-color: #fafafa;
+}
+.faqbuttonn4 {
+    margin-top: 6px;
+    width: 100%;
+    text-align: initial;
+    font-size: 33px;
+    font-weight: bold;
+    border: 2px solid #fafafa;
+    background-color: #fafafa;
+    border-radius: 6px;
+    cursor: pointer;
+   
+    padding-top: 8px;
+    padding-left: 7px;
+}
+.faqbuttonn4 p {
+    background-color: white;
+    display: none;
+}
+
+span.faqbutton4 {
+    background-color: #fafafa;
+}
+.faqbuttonn5 {
+    margin-top: 6px;
+    width: 100%;
+    text-align: initial;
+    font-size: 33px;
+    font-weight: bold;
+    border: 2px solid #fafafa;
+    background-color: #fafafa;
+    border-radius: 6px;
+    cursor: pointer;
+    
+    padding-top: 8px;
+    padding-left: 7px;
+}
+.faqbuttonn5 p {
+    background-color: white;
+    display: none;
+}
+
+span.faqbutton5 {
+    background-color:#fafafa;
+}
+.myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  } 
+  .page-hero2 {
+    background-image: linear-gradient(225deg, #ffc63f 0%, #fd3358 49%, #bc35d8 100%);
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    padding: 76px 0;
+    background-size: cover;
+    margin-top: -67px;
+    height: 352px;
+}
+button.button.button3 {
+    background-color: yellow;
+    margin-top: 28px;
+    width: 176px;
+    height: 49px;
+    border-radius: 13px;
+}
+.page-hero2 h3 {
+    margin-top: 10px;
+    margin-left: -107px;
+}
+.page-hero2 h4 {
+    background-color: black;
+    width: 58px;
+    margin-left: 806px;
+    margin-top: -20px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+.end {
+    background-color: #111;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    text-align: center
+}
+.textt {
+    margin-left: 127px;
+    margin-top: 40px;
+    line-height: 2.5;
+}
+.textt h1 {
+    color: white;
+    font-weight: bold;
+    font-family: system-ui;
+}
+.textt h3 {
+    color: #b7b7b7;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.line {
+    border-top: 2px solid gray;
+    position: relative;
+    top: -66px;
+    height: 0px;
+    width: 70%;
+    left: 244px;
+}
+.line h2 {
+    float: left;
+    margin-top: 14px;
+    margin-bottom: 18px;
+    padding-right: 32px;
+    padding-left: 33px;
+    color: #b7b7b7;
+    font-size: 16px;
+    font-family: system-ui;
+    font-weight: bold;
+}
+@media screen and (max-width:1024px) and (min-width: 768px){
+    .sign {
+        margin-left: 500;
+        margin-top: 23px;
+    }
+    .textt {
+        margin-left: 72px;
+        margin-top: 40px;
+        line-height: 2.5;
+    }
+    .page-hero {
+        background-image: linear-gradient(225deg, #ffc63f 0%, #fd3358 49%, #bc35d8 100%);
+        text-align: center;
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+        padding: 76px 0;
+        background-size: cover;
+        margin-top: 59px;
+        height: 431px;
+        width: 1209px;
+    }
+    .page-hero p {
+        font-size: 33px;
+        font-family: fantasy;
+        width: 931px;
+        text-align: center;
+        margin-left: 151px;
+    }
+    
+
+.faq {
+    background-color: #fafafa;
+    width: 1209px;
+    padding: 100;
+}
+.faqanswers {
+    margin-top: -159px;
+    width: 1209px;
+    padding: 100;
+    text-align: center;
+    background-color: #fafafa;
+}
+.page-hero2 {
+    background-image: linear-gradient(225deg, #ffc63f 0%, #fd3358 49%, #bc35d8 100%);
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    padding: 76px 0;
+    background-size: cover;
+    margin-top: -67px;
+    height: 432;
+    width: 1209px;
+}
+.end {
+    background-color: #111;
+    width: 1209;
+    height: 463px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.line {
+    border-top: 2px solid gray;
+    position: relative;
+    top: -66px;
+    height: 0px;
+    width: 1000;
+    left: 84px;
+}
+.faq p {
+    width: 500;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 9px;
+    margin-bottom: 60px;
+    color: rgba(17,17,17,0.7);
+}
+}
+@media screen and (max-width:768px) and (min-width: 540px){
+    .sign {
+        margin-left: 500;
+        margin-top: 23px;
+    }
+    .textt {
+        margin-left: 72px;
+        margin-top: 40px;
+        line-height: 2.5;
+    }
+    .page-hero {
+        background-image: linear-gradient(225deg, #ffc63f 0%, #fd3358 49%, #bc35d8 100%);
+        text-align: center;
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+        padding: 76px 0;
+        background-size: cover;
+        margin-top: 59px;
+        height: 431px;
+        width: 1209px;
+    }
+    .page-hero p {
+        font-size: 33px;
+        font-family: fantasy;
+        width: 931px;
+        text-align: center;
+        margin-left: 151px;
+    }
+    
+
+.faq {
+    background-color: #fafafa;
+    width: 1209px;
+    padding: 100;
+}
+.faqanswers {
+    margin-top: -159px;
+    width: 1209px;
+    padding: 100;
+    text-align: center;
+    background-color: #fafafa;
+}
+.page-hero2 {
+    background-image: linear-gradient(225deg, #ffc63f 0%, #fd3358 49%, #bc35d8 100%);
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    padding: 76px 0;
+    background-size: cover;
+    margin-top: -67px;
+    height: 432;
+    width: 1209px;
+}
+.end {
+    background-color: #111;
+    width: 1209;
+    height: 463px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.line {
+    border-top: 2px solid gray;
+    position: relative;
+    top: -66px;
+    height: 0px;
+    width: 1000;
+    left: 84px;
+}
+.faq p {
+    width: 500;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 9px;
+    margin-bottom: 60px;
+    color: rgba(17,17,17,0.7);
+}
+}
+@media screen and (max-width:540px) and (min-width: 320px){
+    .sign {
+        margin-left: 500;
+        margin-top: 23px;
+    }
+    .textt {
+        margin-left: 72px;
+        margin-top: 40px;
+        line-height: 2.5;
+    }
+    .page-hero {
+        background-image: linear-gradient(225deg, #ffc63f 0%, #fd3358 49%, #bc35d8 100%);
+        text-align: center;
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+        padding: 76px 0;
+        background-size: cover;
+        margin-top: 59px;
+        height: 431px;
+        width: 1209px;
+    }
+    .page-hero p {
+        font-size: 33px;
+        font-family: fantasy;
+        width: 931px;
+        text-align: center;
+        margin-left: 151px;
+    }
+    
+
+.faq {
+    background-color: #fafafa;
+    width: 1209px;
+    padding: 100;
+}
+.faqanswers {
+    margin-top: -159px;
+    width: 1209px;
+    padding: 100;
+    text-align: center;
+    background-color: #fafafa;
+}
+.page-hero2 {
+    background-image: linear-gradient(225deg, #ffc63f 0%, #fd3358 49%, #bc35d8 100%);
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    padding: 76px 0;
+    background-size: cover;
+    margin-top: -67px;
+    height: 432;
+    width: 1209px;
+}
+.end {
+    background-color: #111;
+    width: 1209;
+    height: 463px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.line {
+    border-top: 2px solid gray;
+    position: relative;
+    top: -66px;
+    height: 0px;
+    width: 1000;
+    left: 84px;
+}
+.faq p {
+    width: 500;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 9px;
+    margin-bottom: 60px;
+    color: rgba(17,17,17,0.7);
+}
+}
+@media screen and (max-width:320px) and (min-width: 280px){
+    .sign {
+        margin-left: 500;
+        margin-top: 23px;
+    }
+    .textt {
+        margin-left: 62px;
+        margin-top: 40px;
+        line-height: 3;
+    }
+    .page-hero {
+        background-image: linear-gradient(225deg, #ffc63f 0%, #fd3358 49%, #bc35d8 100%);
+        text-align: center;
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+        padding: 76px 0;
+        background-size: cover;
+        margin-top: 59px;
+        height: 524px;
+        width: 1119px;
+    }
+    .page-hero p {
+        font-size: 33px;
+        font-family: fantasy;
+        width: 931px;
+        text-align: center;
+        margin-left: 137px;
+        margin-top: 104px;
+    }
+    
+
+.faq {
+    background-color: #fafafa;
+    width: 1119px;
+    padding: 100;
+}
+.faqanswers {
+    margin-top: -159px;
+    width: 1119px;
+    padding: 100;
+    text-align: center;
+    background-color: #fafafa;
+}
+.page-hero2 {
+    background-image: linear-gradient(225deg, #ffc63f 0%, #fd3358 49%, #bc35d8 100%);
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    padding: 76px 0;
+    background-size: cover;
+    margin-top: -67px;
+    height: 481px;
+    width: 1119px;
+}
+.end {
+    background-color: #111;
+    width: 1119px;
+    height: 527px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.line {
+    border-top: 2px solid gray;
+    position: relative;
+    top: -66px;
+    height: 0px;
+    width: 1000;
+    left: 84px;
+}
+.faq p {
+    width: 500;
+    font-size: 39px;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 9px;
+    margin-bottom: 102px;
+    color: rgba(17,17,17,0.7);
+}
+.page-hero2 h1 {
+    line-height: 3.5;
+}
+}
